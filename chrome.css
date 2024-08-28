@@ -8,9 +8,9 @@
 			border-radius: 3px;
 			height: calc(100% - 0px);
 			top: 50%;
-			left: calc(100% - 2px);
+			left: calc(100% - 2px) !important;
 			transform: translateY(-50%);
-			background-color: var(--zen-primary-color);
+			background-color: var(--zen-primary-color) !important;
 		}
 		
 		.tabbrowser-tab:not([selected=true]){
